@@ -1,5 +1,5 @@
 {
-    "name": "search-engine-of-books",
+    "name": "book-search-engine",
     "version": "1.0.0",
     "description": "",
     "main": "server/server.js",
@@ -12,3 +12,21 @@
         "seed": "cd server && npm run seed",
         "heroku-postbuild": "cd client && npm run build"
     },
+    "repository": {
+        "type": "git",
+        "url": "git@work.github.com:joshuar2155/search-engine-of-books.git"
+    },
+    "keywords": [],
+    "author": "Juliet Lamond",
+    "bugs": {
+        "url": "https://github.com/joshuar2155/search-engine-of-books/issues"
+    },
+    "homepage": "https://github.com/joshuar2155/search-engine-of-books#readme",
+    "dependencies": {
+        "apollo-server-express": "^2.15.0",
+        "if-env": "^1.0.4"
+    },
+    "devDependencies": {
+        "concurrently": "^5. 2.0"
+    }
+}
